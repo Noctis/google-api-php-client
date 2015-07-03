@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-if (!class_exists('Google_Client')) {
+if (!class_exists('Google_Config')) {
   require_once dirname(__FILE__) . '/autoload.php';
 }
 
